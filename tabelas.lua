@@ -30,6 +30,7 @@ print(valores[6]) -- 93
 
 print('----------------------------------')
 
+-- Função criada apenas para ver a apresentação dos dados em terminal
 local function printTabela(tabela)
     for chave, valor in pairs(tabela) do
         if type(valor) == "table" then
@@ -70,3 +71,16 @@ personagem = {
 }
 
 printTabela(personagem)
+print(personagem.nome)
+printTabela(personagem.itens.mochila)
+print(personagem.itens.mochila.goldenCoin) -- acessando diversas camadas de tabelas
+printTabela(personagem.itens)
+
+print('----------------------------------')
+
+local numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+-- Estrutura de for para percorrer tabelas
+for i = 1 , #numeros do
+    print(numeros[i]);
+end
