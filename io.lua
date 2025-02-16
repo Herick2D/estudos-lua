@@ -54,3 +54,5 @@ print('------------------------------')
     \' Apóstrofo
     \" Aspas
 ]]
+
+print('Teste com strings \a') -- Gera um som durante o print
