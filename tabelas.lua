@@ -84,3 +84,15 @@ local numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 for i = 1 , #numeros do
     print(numeros[i]);
 end
+
+-- iterando sobre tabelas
+local dias = {"Domingo", "Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado"}
+
+for i = 1, #dias do
+    print(dias[i])
+end
+
+-- interando sobre chave(key) valor(value) de uma tabela
+for key, value in pairs(dias) do
+    print(key.. " - "..value)
+end
