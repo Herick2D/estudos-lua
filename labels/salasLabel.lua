@@ -104,4 +104,4 @@ goto fim
 
 ::fim::
 print("Fim do jogo. Obrigado por jogar!")
-print("Desenvolvido por Herick2D")
+print("Desenvolvido por Herick2D - https://github.com/Herick2D")
