@@ -7,4 +7,5 @@ do -- Início do escopo
 end -- Fim do escopo
 
 print(valor) -- 10
+---@diagnostic disable-next-line: undefined-global
 print(novoValor) -- nil (print nao consegue acessar a variável local ao bloco do/end)
