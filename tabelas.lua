@@ -18,7 +18,7 @@ print('----------------------------------')
 
 local valores = {01, 07, 08, 11, 22, 93} -- tabela declarada sem definição de keys
 
--- Quando não declarado uma key, ele o Lua organiza a tabela como um array,
+-- Quando não declarado uma key, o Lua organiza a tabela como um array,
 -- porém diferente de todas as outras linguagens ele começa no 1 ao invés do 0
 
 print(valores[1]) -- 01
